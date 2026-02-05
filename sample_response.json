@@ -1,0 +1,172 @@
+{
+  "mean": 140403.95,
+  "results": [
+    {
+      "longitude": -90.077013,
+      "id": "5565632348",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 75195.24,
+      "location": {
+        "area": [
+          "US",
+          "Louisiana",
+          "Orleans Parish",
+          "New Orleans"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "New Orleans, Orleans Parish"
+      },
+      "salary_max": 75195.24,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "THE PRUITT GROUP LLC"
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/5565632348?se=tqxqSfj98BGj7tlH-RomXA&utm_medium=api&utm_source=371ed058&v=854BCE34FECAC1E173913F01B52F0BCE28EEDB8D",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "description": "Job Description Job Description We are looking for a talented and driven Data Engineer with strong expertise in Azure Data Factory and other Microsoft technologies to join our dynamic team. In this role, you will be responsible for designing, developing, and maintaining data pipelines, integration solutions, and data-centric applications. Your in-depth knowledge of Microsoft technologies and proficiency in Azure Data Factory will be key to optimizing data processing, storage, and analysis. Resp\u2026",
+      "title": "Data Engineer",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU2NTYzMjM0OCIsInMiOiJ0cXhxU2ZqOThCR2o3dGxILVJvbVhBIn0.f7Bpm3_Nhkzuxm_gEouvd1Xk0nVKQ-LROhbj6Ch21Qc",
+      "created": "2026-01-02T22:55:06Z",
+      "latitude": 29.959577
+    },
+    {
+      "title": "Data Engineer",
+      "description": "Job Description Job Description Position Description U.S. Citizen: Active Clearance or Clearance Eligibility REQUIRED Full-Time \u2013 Hybrid - Leesburg, VA (with rotational international travel as required) Duty Sites: Leesburg, VA (Remote) and Amman, Jordan Division: Cybersecurity Services FLSA Status: Exempt Job Description: As a Data Engineer within SASSI\u2019s Cybersecurity Services Division, you will design, build, and maintain data pipelines and analytical systems supporting U.S. Government and d\u2026",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU5Njg0MTg0MyIsInMiOiJ0cXhxU2ZqOThCR2o3dGxILVJvbVhBIn0.0NUSc8o_bvUFGGjEc87DXWjoyBxuvI6torJPJcbRzIw",
+      "latitude": 39.052271,
+      "created": "2026-01-22T23:04:14Z",
+      "longitude": -77.603577,
+      "id": "5596841843",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "US",
+          "Virginia",
+          "Loudoun County",
+          "Leesburg"
+        ],
+        "display_name": "Leesburg, Loudoun County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_min": 88376.84,
+      "redirect_url": "https://www.adzuna.com/land/ad/5596841843?se=tqxqSfj98BGj7tlH-RomXA&utm_medium=api&utm_source=371ed058&v=270A23317783A09348F0284D67AC034F83AF53AD",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "salary_max": 88376.84,
+      "company": {
+        "display_name": "SPECIAL AEROSPACE SECURITY SERVICES INC",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    },
+    {
+      "id": "5595091800",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -112.07,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Strategic Employment"
+      },
+      "salary_max": 94280.8,
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "redirect_url": "https://www.adzuna.com/land/ad/5595091800?se=tqxqSfj98BGj7tlH-RomXA&utm_medium=api&utm_source=371ed058&v=9C2A1D3B289AC558B89D1777F6149463E73B38A7",
+      "salary_min": 94280.8,
+      "location": {
+        "area": [
+          "US",
+          "Arizona",
+          "Maricopa County",
+          "Phoenix"
+        ],
+        "display_name": "Phoenix, Maricopa County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "title": "Data Engineer",
+      "description": "Job Description Job Description A long-standing SaaS product company is hiring a data engineer to support both modern cloud pipelines and legacy systems. You'll work cross-functionally to build ETL workflows, write complex SQL, and support ongoing migration efforts. Responsibilities: Build pipelines using Azure Data Factory and Databricks Write complex SQL queries, views, and stored procedures Support legacy systems like SQL Server and SSIS Work in a medallion architecture with a cloud data lak\u2026",
+      "salary_is_predicted": "1",
+      "created": "2026-01-21T22:51:19Z",
+      "latitude": 33.45,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidHF4cVNmajk4QkdqN3RsSC1Sb21YQSIsImkiOiI1NTk1MDkxODAwIn0.igZ7R-gMPFX8BmwojqWu44eeDaM_6QcKG8qPulta_f8"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidHF4cVNmajk4QkdqN3RsSC1Sb21YQSIsImkiOiI1NTY1NjMyNTU2In0.k6Udrt8nLpmCarDqcDD3M50_YTAeunTQC7ZEtiL97XA",
+      "created": "2026-01-02T22:55:55Z",
+      "latitude": 43.542656,
+      "description": "Job Description Job Description Description: POSITION/JOB TITLE: Data Engineer DEPARTMENT: Engineering REQUIREMENTS: Qualified candidates must be legally authorized to be employed in the United States on a full-time basis for any position. Omnitech will not provide sponsorship for employment visa status (e.g., H-1B or TN status) for this position.  On-site position, NO remote.  Do you have a data-driven, engineering mind and a consulting-type personality? Omnitech is an established, locally own\u2026",
+      "title": "Data Engineer",
+      "salary_is_predicted": "1",
+      "salary_min": 68726.22,
+      "location": {
+        "area": [
+          "US",
+          "South Dakota",
+          "Minnehaha County",
+          "Sioux Falls"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Sioux Falls, Minnehaha County"
+      },
+      "company": {
+        "display_name": "Omnitech, Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_max": 68726.22,
+      "redirect_url": "https://www.adzuna.com/land/ad/5565632556?se=tqxqSfj98BGj7tlH-RomXA&utm_medium=api&utm_source=371ed058&v=4D950C16863B4392871AD90989B7DF446DF94E50",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "longitude": -96.690546,
+      "id": "5565632556",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "salary_is_predicted": "1",
+      "description": "Job Description Job Description Akkodis is seeking a Data Engineer for a Contract job with a client in Rosemead, CA . The ideal candidate will have hands\u2011on experience building APIs, data integrations, and AI/LLM workflows, with strong skills in Python and Azure platforms. Rate Range: $45/hour to $ 49.24/hour ; The rate may be negotiable based on experience, education, geographic location, and other factors. Data Engineer job responsibilities include: Build and operate APIs, MCP integrations, a\u2026",
+      "title": "Data Engineer",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYwNDYxOTQ5OSIsInMiOiJ0cXhxU2ZqOThCR2o3dGxILVJvbVhBIn0.DTA4ZYgZePUPTeS-reN4datULJpxOuh8ML3HRu0Pdfo",
+      "latitude": 34.080565,
+      "created": "2026-01-29T05:36:46Z",
+      "longitude": -118.072846,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5604619499",
+      "location": {
+        "area": [
+          "US",
+          "California",
+          "Los Angeles County",
+          "Rosemead"
+        ],
+        "display_name": "Rosemead, Los Angeles County",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_min": 103969.04,
+      "redirect_url": "https://www.adzuna.com/land/ad/5604619499?se=tqxqSfj98BGj7tlH-RomXA&utm_medium=api&utm_source=371ed058&v=A579556FD4565F45862018471373E952BCD24C05",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "salary_max": 103969.04,
+      "company": {
+        "display_name": "Akkodis",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    }
+  ],
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "count": 79521
+}

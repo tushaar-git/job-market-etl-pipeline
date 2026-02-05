@@ -1,0 +1,32 @@
+# Environment variables (NEVER commit passwords!)
+.env
+config/.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Data files (too large for GitHub)
+data/*.json
+data/*.csv
+logs/*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
