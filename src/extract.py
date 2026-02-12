@@ -4,11 +4,6 @@ import logging
 from typing import Dict, List, Optional
 from src.config import Config # Config class
 
-# Set up logging
-logging.basicConfig(
-	level=logging.INFO,
-    	format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
 logger = logging.getLogger(__name__) # Create logger for this module
 
 class AdzunaClient:
@@ -154,6 +149,39 @@ class AdzunaClient:
 				time.sleep(1)
 		logger.info(f"Search complete. Total jobs collected: {len(all_jobs)}")
 		return all_jobs
+	
+	def save_raw_data(self, data: List[Dict], filename:str) -> None:
+		"""
+		Save raw API response to JSON file
+		
+		Args:
+			data: List of job dictionaries
+			filename:output filename (saved in data/ directory)
+		"""
+		import json
+		import os
+		from datetime import datetime
+		
+		# Ensure data directory exists
+		os.makedirs('data', exist_ok=True)
+
+		# Add metadata
+		output = {
+			"metadata":{
+				"extracted_at": datetime.now().isoformat(),
+				"total_jobs": len(data),
+				"source": "Adzuna API"
+			},
+			"jobs": data
+		}
+
+		filepath = os.path.join('data', filename)
+
+		with open(filepath, 'w', encoding='utf-8') as f:
+			json.dump(output, f, indent=2, ensure_ascii=False)
+		
+		logger.info(f"Saved {len(data)} jobs to {filepath}")	
+
 	
 	def get_job_count(self, query: str) -> int:
 		"""
