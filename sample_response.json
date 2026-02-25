@@ -1,49 +1,40 @@
 {
-  "mean": 140403.95,
   "results": [
     {
       "longitude": -90.077013,
-      "id": "5565632348",
       "__CLASS__": "Adzuna::API::Response::Job",
-      "salary_min": 75195.24,
+      "latitude": 29.959577,
+      "id": "5608129672",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Job Description Job Description We are looking for a talented and driven Data Engineer with strong expertise in Azure Data Factory and other Microsoft technologies to join our dynamic team. In this role, you will be responsible for designing, developing, and maintaining data pipelines, integration solutions, and data-centric applications. Your in-depth knowledge of Microsoft technologies and proficiency in Azure Data Factory will be key to optimizing data processing, storage, and analysis. Resp\u2026",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYwODEyOTY3MiIsInMiOiJqcDYwRzQ4SThSRzY0dndBTmZ1ajJBIn0.k9Se9q-1H84er4EUIQ0_tJlwodnxR4XafNTJlUntPGg",
+      "title": "Data Engineer",
       "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "New Orleans, Orleans Parish",
         "area": [
           "US",
           "Louisiana",
           "Orleans Parish",
           "New Orleans"
-        ],
-        "__CLASS__": "Adzuna::API::Response::Location",
-        "display_name": "New Orleans, Orleans Parish"
+        ]
       },
+      "created": "2026-01-31T22:35:12Z",
+      "redirect_url": "https://www.adzuna.com/land/ad/5608129672?se=jp60G48I8RG64vwANfuj2A&utm_medium=api&utm_source=371ed058&v=A7110D3BF50DC42FDF4FEEEE181D7C6EA43024DD",
       "salary_max": 75195.24,
+      "salary_min": 75195.24,
       "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "THE PRUITT GROUP LLC"
-      },
-      "redirect_url": "https://www.adzuna.com/land/ad/5565632348?se=tqxqSfj98BGj7tlH-RomXA&utm_medium=api&utm_source=371ed058&v=854BCE34FECAC1E173913F01B52F0BCE28EEDB8D",
-      "category": {
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "label": "IT Jobs",
-        "tag": "it-jobs"
-      },
-      "description": "Job Description Job Description We are looking for a talented and driven Data Engineer with strong expertise in Azure Data Factory and other Microsoft technologies to join our dynamic team. In this role, you will be responsible for designing, developing, and maintaining data pipelines, integration solutions, and data-centric applications. Your in-depth knowledge of Microsoft technologies and proficiency in Azure Data Factory will be key to optimizing data processing, storage, and analysis. Resp\u2026",
-      "title": "Data Engineer",
-      "salary_is_predicted": "1",
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU2NTYzMjM0OCIsInMiOiJ0cXhxU2ZqOThCR2o3dGxILVJvbVhBIn0.f7Bpm3_Nhkzuxm_gEouvd1Xk0nVKQ-LROhbj6Ch21Qc",
-      "created": "2026-01-02T22:55:06Z",
-      "latitude": 29.959577
+        "display_name": "THE PRUITT GROUP LLC",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
     },
     {
       "title": "Data Engineer",
-      "description": "Job Description Job Description Position Description U.S. Citizen: Active Clearance or Clearance Eligibility REQUIRED Full-Time \u2013 Hybrid - Leesburg, VA (with rotational international travel as required) Duty Sites: Leesburg, VA (Remote) and Amman, Jordan Division: Cybersecurity Services FLSA Status: Exempt Job Description: As a Data Engineer within SASSI\u2019s Cybersecurity Services Division, you will design, build, and maintain data pipelines and analytical systems supporting U.S. Government and d\u2026",
-      "salary_is_predicted": "1",
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTU5Njg0MTg0MyIsInMiOiJ0cXhxU2ZqOThCR2o3dGxILVJvbVhBIn0.0NUSc8o_bvUFGGjEc87DXWjoyBxuvI6torJPJcbRzIw",
-      "latitude": 39.052271,
-      "created": "2026-01-22T23:04:14Z",
-      "longitude": -77.603577,
-      "id": "5596841843",
-      "__CLASS__": "Adzuna::API::Response::Job",
       "location": {
         "area": [
           "US",
@@ -54,60 +45,74 @@
         "display_name": "Leesburg, Loudoun County",
         "__CLASS__": "Adzuna::API::Response::Location"
       },
-      "salary_min": 88376.84,
-      "redirect_url": "https://www.adzuna.com/land/ad/5596841843?se=tqxqSfj98BGj7tlH-RomXA&utm_medium=api&utm_source=371ed058&v=270A23317783A09348F0284D67AC034F83AF53AD",
-      "category": {
-        "label": "IT Jobs",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "tag": "it-jobs"
-      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYxNjg0Mjg4MiIsInMiOiJqcDYwRzQ4SThSRzY0dndBTmZ1ajJBIn0.4pnPfcSet5_qol6xfGPBTHwoCYvDPaHXBBamRxKQmPM",
       "salary_max": 88376.84,
+      "redirect_url": "https://www.adzuna.com/land/ad/5616842882?se=jp60G48I8RG64vwANfuj2A&utm_medium=api&utm_source=371ed058&v=5C7F1CED14D96432243AA80F7F4A41433ACA419B",
+      "salary_min": 88376.84,
       "company": {
-        "display_name": "SPECIAL AEROSPACE SECURITY SERVICES INC",
-        "__CLASS__": "Adzuna::API::Response::Company"
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SPECIAL AEROSPACE SECURITY SERVICES INC"
+      },
+      "created": "2026-02-05T23:36:41Z",
+      "id": "5616842882",
+      "latitude": 39.052271,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -77.603577,
+      "description": "Job Description Job Description Position Description U.S. Citizen: Active Clearance or Clearance Eligibility REQUIRED Full-Time \u2013 Hybrid - Leesburg, VA (with rotational international travel as required) Duty Sites: Leesburg, VA (Remote) and Amman, Jordan Division: Cybersecurity Services FLSA Status: Exempt Job Description: As a Data Engineer within SASSI\u2019s Cybersecurity Services Division, you will design, build, and maintain data pipelines and analytical systems supporting U.S. Government and d\u2026",
+      "salary_is_predicted": "1",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
       }
     },
     {
-      "id": "5595091800",
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "longitude": -112.07,
-      "company": {
-        "__CLASS__": "Adzuna::API::Response::Company",
-        "display_name": "Strategic Employment"
-      },
-      "salary_max": 94280.8,
       "category": {
+        "tag": "it-jobs",
         "label": "IT Jobs",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "tag": "it-jobs"
+        "__CLASS__": "Adzuna::API::Response::Category"
       },
-      "redirect_url": "https://www.adzuna.com/land/ad/5595091800?se=tqxqSfj98BGj7tlH-RomXA&utm_medium=api&utm_source=371ed058&v=9C2A1D3B289AC558B89D1777F6149463E73B38A7",
-      "salary_min": 94280.8,
+      "description": "Job Description Job Description Summary The Data Engineer role is to design, develop, and maintain scalable data architecture and pipelines that empower business analytics, reporting, and data-driven decision making. The Data Engineer will partner with cross-functional teams to deliver high-quality, reliable data solutions. Essential Duties and Responsibilities This list of duties and responsibilities is not all inclusive and may be expanded to include other duties and responsibilities as manag\u2026",
+      "salary_is_predicted": "1",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -87.899151,
+      "id": "5615207868",
+      "latitude": 43.043978,
+      "created": "2026-02-04T23:24:56Z",
+      "company": {
+        "display_name": "Summit Pharmacy Solutions LLC",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_min": 82620.64,
+      "salary_max": 82620.64,
+      "redirect_url": "https://www.adzuna.com/land/ad/5615207868?se=jp60G48I8RG64vwANfuj2A&utm_medium=api&utm_source=371ed058&v=D946C0C2356227FAFD657F2368104EB6AED0491C",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoianA2MEc0OEk4Ukc2NHZ3QU5mdWoyQSIsImkiOiI1NjE1MjA3ODY4In0.Ow9OlVsTH2SDGfQaZD9B0ZA-yFyzMJRq0TcvARS2BcM",
       "location": {
         "area": [
           "US",
-          "Arizona",
-          "Maricopa County",
-          "Phoenix"
+          "Wisconsin",
+          "Milwaukee County",
+          "Milwaukee"
         ],
-        "display_name": "Phoenix, Maricopa County",
-        "__CLASS__": "Adzuna::API::Response::Location"
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Milwaukee, Milwaukee County"
       },
-      "title": "Data Engineer",
-      "description": "Job Description Job Description A long-standing SaaS product company is hiring a data engineer to support both modern cloud pipelines and legacy systems. You'll work cross-functionally to build ETL workflows, write complex SQL, and support ongoing migration efforts. Responsibilities: Build pipelines using Azure Data Factory and Databricks Write complex SQL queries, views, and stored procedures Support legacy systems like SQL Server and SSIS Work in a medallion architecture with a cloud data lak\u2026",
-      "salary_is_predicted": "1",
-      "created": "2026-01-21T22:51:19Z",
-      "latitude": 33.45,
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidHF4cVNmajk4QkdqN3RsSC1Sb21YQSIsImkiOiI1NTk1MDkxODAwIn0.igZ7R-gMPFX8BmwojqWu44eeDaM_6QcKG8qPulta_f8"
+      "title": "Data Engineer"
     },
     {
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidHF4cVNmajk4QkdqN3RsSC1Sb21YQSIsImkiOiI1NTY1NjMyNTU2In0.k6Udrt8nLpmCarDqcDD3M50_YTAeunTQC7ZEtiL97XA",
-      "created": "2026-01-02T22:55:55Z",
+      "longitude": -96.690546,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5608813000",
       "latitude": 43.542656,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
       "description": "Job Description Job Description Description: POSITION/JOB TITLE: Data Engineer DEPARTMENT: Engineering REQUIREMENTS: Qualified candidates must be legally authorized to be employed in the United States on a full-time basis for any position. Omnitech will not provide sponsorship for employment visa status (e.g., H-1B or TN status) for this position.  On-site position, NO remote.  Do you have a data-driven, engineering mind and a consulting-type personality? Omnitech is an established, locally own\u2026",
-      "title": "Data Engineer",
       "salary_is_predicted": "1",
-      "salary_min": 68726.22,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoianA2MEc0OEk4Ukc2NHZ3QU5mdWoyQSIsImkiOiI1NjA4ODEzMDAwIn0.ux9wkXow5Pdx6X4FdqMNp67n_ukZsH_0IYQoz8CuM0w",
+      "title": "Data Engineer",
       "location": {
         "area": [
           "US",
@@ -118,55 +123,50 @@
         "__CLASS__": "Adzuna::API::Response::Location",
         "display_name": "Sioux Falls, Minnehaha County"
       },
-      "company": {
-        "display_name": "Omnitech, Inc.",
-        "__CLASS__": "Adzuna::API::Response::Company"
-      },
+      "created": "2026-02-01T10:48:43Z",
       "salary_max": 68726.22,
-      "redirect_url": "https://www.adzuna.com/land/ad/5565632556?se=tqxqSfj98BGj7tlH-RomXA&utm_medium=api&utm_source=371ed058&v=4D950C16863B4392871AD90989B7DF446DF94E50",
-      "category": {
-        "tag": "it-jobs",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "label": "IT Jobs"
-      },
-      "longitude": -96.690546,
-      "id": "5565632556",
-      "__CLASS__": "Adzuna::API::Response::Job"
+      "redirect_url": "https://www.adzuna.com/land/ad/5608813000?se=jp60G48I8RG64vwANfuj2A&utm_medium=api&utm_source=371ed058&v=F2894913813F5EEF6D780B6C1CB1BA305CF5B861",
+      "salary_min": 68726.22,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Omnitech, Inc."
+      }
     },
     {
-      "salary_is_predicted": "1",
-      "description": "Job Description Job Description Akkodis is seeking a Data Engineer for a Contract job with a client in Rosemead, CA . The ideal candidate will have hands\u2011on experience building APIs, data integrations, and AI/LLM workflows, with strong skills in Python and Azure platforms. Rate Range: $45/hour to $ 49.24/hour ; The rate may be negotiable based on experience, education, geographic location, and other factors. Data Engineer job responsibilities include: Build and operate APIs, MCP integrations, a\u2026",
-      "title": "Data Engineer",
-      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYwNDYxOTQ5OSIsInMiOiJ0cXhxU2ZqOThCR2o3dGxILVJvbVhBIn0.DTA4ZYgZePUPTeS-reN4datULJpxOuh8ML3HRu0Pdfo",
-      "latitude": 34.080565,
-      "created": "2026-01-29T05:36:46Z",
-      "longitude": -118.072846,
-      "__CLASS__": "Adzuna::API::Response::Job",
-      "id": "5604619499",
+      "title": "Lead Data Engineer",
       "location": {
         "area": [
           "US",
-          "California",
-          "Los Angeles County",
-          "Rosemead"
+          "Texas",
+          "Dallas",
+          "Irving"
         ],
-        "display_name": "Rosemead, Los Angeles County",
-        "__CLASS__": "Adzuna::API::Response::Location"
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Irving, Dallas"
       },
-      "salary_min": 103969.04,
-      "redirect_url": "https://www.adzuna.com/land/ad/5604619499?se=tqxqSfj98BGj7tlH-RomXA&utm_medium=api&utm_source=371ed058&v=A579556FD4565F45862018471373E952BCD24C05",
-      "category": {
-        "label": "IT Jobs",
-        "__CLASS__": "Adzuna::API::Response::Category",
-        "tag": "it-jobs"
-      },
-      "salary_max": 103969.04,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoianA2MEc0OEk4Ukc2NHZ3QU5mdWoyQSIsImkiOiI1NjI2MTM4OTU5In0.fi3f6WJp-JwpUOYli1xBvdP7eNz2vDGiwqK7ZXFvVSU",
       "company": {
-        "display_name": "Akkodis",
+        "display_name": "NextStep Recruiting",
         "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_min": 111106.89,
+      "redirect_url": "https://www.adzuna.com/land/ad/5626138959?se=jp60G48I8RG64vwANfuj2A&utm_medium=api&utm_source=371ed058&v=7C3C85AAF62506D1C6BB39B12F7CA611FC071BD5",
+      "salary_max": 111106.89,
+      "created": "2026-02-12T10:13:07Z",
+      "latitude": 32.872152,
+      "id": "5626138959",
+      "longitude": -96.996093,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Job Description Job Description NextStep Recruiting has partnered with an innovative, data-driven organization to find a Senior Data Engineer to join their growing team! This role will play a pivotal part in designing, building, and scaling the data infrastructure that powers business operations and strategic insights. The ideal candidate will bring strong leadership, hands-on data engineering experience, and a passion for building reliable, scalable systems that deliver real business value. Re\u2026",
+      "salary_is_predicted": "1",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
       }
     }
   ],
+  "mean": 141312.26,
   "__CLASS__": "Adzuna::API::Response::JobSearchResults",
-  "count": 79521
+  "count": 77811
 }
