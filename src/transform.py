@@ -227,24 +227,24 @@ class DataTransformer:
         return self.clean_text(name)
     
     def extract_category(self, job: Dict) -> Optional[Dict]:
-        """
-        Extract category information
-        
-        Args:
-            job: Job dictionary with nested category
-            
-        Returns:
-            Dictionary with category fields or None
-        """
+        """Extract category information"""
         category_data = job.get('category')
         
         if not category_data:
             self.stats['missing_categories'] += 1
             return None
         
+        label = self.clean_text(category_data.get('label'))
+        tag = self.clean_text(category_data.get('tag'))
+        
+        # Both label and tag must exist
+        if not label or not tag:
+            self.stats['missing_categories'] += 1
+            return None
+        
         return {
-            'label': self.clean_text(category_data.get('label')),
-            'tag': self.clean_text(category_data.get('tag'))
+            'label': label,
+            'tag': tag
         }
     
     def transform(self, jobs: List[Dict]) -> Tuple[List[Dict], List[Dict], List[Dict], List[Dict]]:
@@ -466,5 +466,4 @@ class DataTransformer:
             categories.append(category)
         
         return categories
-        
-        
+    
