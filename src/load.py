@@ -26,7 +26,7 @@ class DatabaseLoader:
         self.connection = None
         self.cursor = None
         self._connect()
-        logger.info("DatabseLoader initialized")
+        logger.info("DatabaseLoader initialized")
     
     def _connect(self):
         """Establish connection to PostgreSQL database"""
@@ -39,14 +39,14 @@ class DatabaseLoader:
                 port=Config.DB_PORT
             )
             self.cursor = self.connection.cursor()
-            logger.info(f"Connected to databse: {Config.DB_NAME}")
+            logger.info(f"Connected to database: {Config.DB_NAME}")
         
         except psycopg2.Error as e:
-            logger.error(f"Failed to connect to databse: {2}")
+            logger.error(f"Failed to connect to database: {e}")
             raise
     
     def close(self):
-        """Close databse connection"""
+        """Close database connection"""
         if self.cursor:
             self.cursor.close()
         if self.connection:
