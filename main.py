@@ -39,36 +39,46 @@ def main():
         logger.info("PHASE 1: EXTRACT")
         logger.info("=" * 70)
         
-        client = AdzunaClient(
-            app_id=Config.ADZUNA_APP_ID,
-            app_key=Config.ADZUNA_APP_KEY,
-            country="us"
-        )
-        
-        # Get total available jobs
         query = "data engineer"
-        total_jobs = client.get_job_count(query)
-        logger.info(f"Total jobs available for '{query}': {total_jobs:,}")
-        
-        # Extract jobs
-        logger.info("Extracting jobs from API...")
-        jobs = client.search_jobs(
-            query=query,
-            max_pages=5,
-            results_per_page=50
-        )
-        
-        if not jobs:
-            logger.error("No jobs extracted. Aborting pipeline.")
+        countries = ["de", "fr"]
+        all_jobs = []
+
+        for country in countries:
+            logger.info(f"\nExtracting jobs for country: {country.upper()}")
+            client = AdzunaClient(
+                app_id=Config.ADZUNA_APP_ID,
+                app_key=Config.ADZUNA_APP_KEY,
+                country=country
+            )
+
+            total_jobs = client.get_job_count(query)
+            logger.info(f"Total jobs available for '{query}' in {country.upper()}: {total_jobs:,}")
+
+            jobs = client.search_jobs(
+                query=query,
+                max_pages=5,
+                results_per_page=50
+            )
+
+            if not jobs:
+                logger.warning(f"No jobs extracted for {country.upper()}. Skipping.")
+                continue
+
+            logger.info(f"✓ Extracted {len(jobs)} jobs from {country.upper()}")
+
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"raw_jobs_{country}_{timestamp}.json"
+            client.save_raw_data(jobs, filename)
+            logger.info(f"✓ Saved raw data to data/{filename}")
+
+            all_jobs.extend(jobs)
+
+        if not all_jobs:
+            logger.error("No jobs extracted from any country. Aborting pipeline.")
             sys.exit(1)
-        
-        logger.info(f"✓ Extracted {len(jobs)} jobs")
-        
-        # Save raw data
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"raw_jobs_{timestamp}.json"
-        client.save_raw_data(jobs, filename)
-        logger.info(f"✓ Saved raw data to data/{filename}")
+
+        jobs = all_jobs
+        logger.info(f"✓ Total jobs extracted across all countries: {len(jobs)}")
         
         # ==================== TRANSFORM ====================
         logger.info("\n" + "=" * 70)
@@ -99,8 +109,7 @@ def main():
         logger.info("\n" + "=" * 70)
         logger.info("PIPELINE COMPLETE - SUMMARY")
         logger.info("=" * 70)
-        logger.info(f"Query: '{query}'")
-        logger.info(f"Total available: {total_jobs:,}")
+        logger.info(f"Query: '{query}' | Countries: {', '.join(c.upper() for c in countries)}")
         logger.info(f"Extracted: {len(jobs)}")
         logger.info(f"Transformed: {len(transformed_jobs)}")
         logger.info(f"Loaded to database:")
@@ -108,8 +117,6 @@ def main():
         logger.info(f"  - Locations: {summary['locations']}")
         logger.info(f"  - Categories: {summary['categories']}")
         logger.info(f"  - Jobs: {summary['jobs']}")
-        logger.info(f"API requests: {client.request_count}")
-        logger.info(f"Raw data: data/{filename}")
         logger.info("=" * 70)
         
         return 0
