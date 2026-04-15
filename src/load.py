@@ -253,9 +253,9 @@ class DatabaseLoader:
                     INSERT INTO jobs (
                         job_id, title, description, salary_min, salary_max,
                         salary_is_predicted, created_at, redirect_url, adref,
-                        latitude, longitude, company_id, location_id, category_id
+                        latitude, longitude, country, company_id, location_id, category_id
                     )
-                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                     ON CONFLICT (job_id) DO NOTHING
                 """
                 
@@ -282,6 +282,7 @@ class DatabaseLoader:
                         job.get('adref'),
                         job.get('latitude'),
                         job.get('longitude'),
+                        job.get('country'),
                         db_company_id,  # Use database ID!
                         db_location_id,  # Use database ID!
                         db_category_id   # Use database ID!

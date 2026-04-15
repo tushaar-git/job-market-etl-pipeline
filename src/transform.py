@@ -340,6 +340,7 @@ class DataTransformer:
                 'adref': job.get('adref'),
                 'latitude': job.get('latitude'),
                 'longitude': job.get('longitude'),
+                'country': job.get('source_country'),
                 'company_id': company_id,
                 'location_id': location_id,
                 'category_id': category_id

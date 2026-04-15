@@ -34,6 +34,7 @@ CREATE TABLE jobs (
     adref TEXT,
     latitude NUMERIC,
     longitude NUMERIC,
+    country VARCHAR(10),
     company_id INTEGER REFERENCES companies(company_id),
     location_id INTEGER REFERENCES locations(location_id),
     category_id INTEGER REFERENCES categories(category_id)

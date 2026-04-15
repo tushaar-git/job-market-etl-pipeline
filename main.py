@@ -39,8 +39,8 @@ def main():
         logger.info("PHASE 1: EXTRACT")
         logger.info("=" * 70)
         
-        query = "data engineer"
-        countries = ["de", "fr"]
+        query = Config.QUERY
+        countries = Config.COUNTRIES
         all_jobs = []
 
         for country in countries:
@@ -70,6 +70,9 @@ def main():
             filename = f"raw_jobs_{country}_{timestamp}.json"
             client.save_raw_data(jobs, filename)
             logger.info(f"✓ Saved raw data to data/{filename}")
+
+            for job in jobs:
+                job['source_country'] = country
 
             all_jobs.extend(jobs)
 

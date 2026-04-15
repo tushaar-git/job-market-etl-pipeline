@@ -10,19 +10,23 @@ class Config:
 	# Adzuna API credentials
 	ADZUNA_APP_ID = os.getenv('APP_ID')
 	ADZUNA_APP_KEY = os.getenv('APP_KEY')
-	
+
 	# Database credentials
 	DB_NAME = os.getenv('DB_NAME')
 	DB_USER = os.getenv('DB_USER')
 	DB_PASSWORD = os.getenv('DB_PASSWORD')
 	DB_HOST = os.getenv('DB_HOST')
 	DB_PORT = os.getenv('DB_PORT')
-	
+
+	# Pipeline settings
+	QUERY = os.getenv('QUERY', 'data engineer')
+	COUNTRIES = [c.strip() for c in os.getenv('COUNTRIES', 'de,fr').split(',')]
+
 	@classmethod
 	def validate(cls):
 		"""Validate that all required config values are present"""
 		required = [
-			'ADZUNA_APP_ID', 'ADZUNA_APP_KEY', 
+			'ADZUNA_APP_ID', 'ADZUNA_APP_KEY',
 			'DB_NAME', 'DB_USER', 'DB_PASSWORD', 'DB_HOST', 'DB_PORT'
 		]
 		
